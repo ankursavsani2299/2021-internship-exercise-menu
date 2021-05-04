@@ -1,0 +1,45 @@
+body {
+  font-family: sans-serif;
+
+  margin: 10px 50px 10px 50px;
+  background-color: #222629;
+}
+
+.spicy:before {
+  width: 16px;
+  height: 16px;
+  content: "";
+  background-color: #e85a50;
+  background-image: url("../assets/spicy.svg");
+  background-repeat: no-repeat;
+  display: inline-block;
+  padding-right: 3px;
+  position: relative;
+  top: 2px;
+}
+
+h1 {
+  text-align: center;
+  background-color: #e85a50;
+}
+
+h2 {
+  color: #87c232;
+  font-size: 28px;
+  text-align: center;
+}
+#starters,
+#pasta,
+#pizza {
+  color: #ffffff;
+  font-weight: 550;
+  text-align: justify;
+  border: 2px solid #87c232;
+  margin: 10px 230px 10px 230px;
+}
+p {
+  padding: 0 10px;
+}
+footer {
+  color: #ffffff;
+}
